@@ -1,12 +1,27 @@
-- 👋 Hi, I’m @MothukuriLavanya
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Basic Calculations
+# Calculator Program in Python by using input() and format() functions
 
-<!---
-MothukuriLavanya/MothukuriLavanya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#Promting input from the user
+
+n1 = float(input("Enter the First Number: "))
+n2 = float(input("Enter the Second Number: "))
+
+#addition
+
+print("{} + {} = ".format(n1, n2))
+print(n1 + n2)
+
+#subtraction
+
+print("{} - {} = ".format(n1, n2))
+print(n1 - n2)
+
+#multiplication
+
+print("{} * {} = ".format(n1, n2))
+print(n1 * n2)
+
+#division
+
+print("{} / {} = ".format(n1, n2))
+print(n1 / n2)
